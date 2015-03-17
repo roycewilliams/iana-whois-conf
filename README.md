@@ -27,3 +27,5 @@ Some domains appear to have lost their WHOIS for some reason over time.  I have 
 
 To format for SuperUser formatting (shift over by 4 for pre-formatted text), use `cat list-superset.txt | sed 's/^/    /g'`
 
+It would be really great is if IANA would publish a current whois.conf themselves.
+
