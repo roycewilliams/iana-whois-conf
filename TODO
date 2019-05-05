@@ -1,0 +1,13 @@
+#-----------------------------------------------------------------------------
+TODO for roycewilliams/iana-whois-conf
+
+- iana.org doesn't set Last-Modified HTTP headers;
+    only fetch DB if size changes?
+    smart delta?
+
+- Abstract delta processing from fetch (clean separation between FreeBSD and non)
+
+- Add jwhois-compatible format:
+        "\\.cn\\.com$" = "whois.centralnic.net";
+
+------------------------------------------------------------------------------

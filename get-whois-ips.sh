@@ -11,11 +11,17 @@ ipsort () { sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n $*; }
 
 #-----------------------------------------------------------------------
 
-for host in ` awk '{print $2}' whois.conf | sort -u`; do 
-    host -t A -4 $host 2>&1 | grep 'has address'; 
-done | tee whois-ips-raw.txt
+for host in $(awk '{print $2}' whois.conf | sort -u); do
+    MYIPS=$(host -t A -4 $host 2>&1 | grep 'has address' | awk '{print $4}')
+    for ip in ${MYIPS}; do
+        echo "$host ${ip}"
+    done
+done | tee whois-ips-raw.list
+wc -l whois-ips-raw.list
+diff -u whois-ips-raw.list.baseline whois-ips-raw.list
 
-awk '{print $4}' whois-ips-raw.txt| sort -u | ipsort >whois-ips-whitelist.txt 
-wc -l whois-ips-whitelist.txt
+awk '{print $2}' whois-ips-raw.list| sort -u | ipsort >whois-ips-whitelist.list
+wc -l whois-ips-whitelist.list
+diff -u whois-ips-whitelist.list.baseline whois-ips-whitelist.list
 
 #-----------------------------------------------------------------------

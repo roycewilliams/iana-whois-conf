@@ -1,0 +1,7 @@
+cache/**
+db.html
+jwhois.conf
+tld.list
+whois.conf
+whois-ips-raw.list
+whois-ips-whitelist.list
