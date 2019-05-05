@@ -23,7 +23,7 @@ This will download IANA's master list of TLDs, and then download the page for ea
 
 2. Run `build-whois.sh`
 
-This generates `whois.conf`.
+This generates output in `whois.conf` and `jwhois.conf`-compatible syntax.
 
 3. Set baseline files as needed.
 
@@ -35,11 +35,9 @@ Notes
 -----
 Some domains appear to have lost their WHOIS for some reason over time.  I have not had time to investigate why for each one, so I just keep the old ones by using  `sdiff -o mergedfile oldfile newfile`.
 
-To format for SuperUser formatting (shift over by 4 for pre-formatted text), use `sed 's/^/    /g' whois.conf`
-
 It would be really great if IANA would publish a current whois.conf themselves.
 
-Bonus script `get-whois-ips` builds a current list of IPs used by the WHOIS servers, so that you can add them to outbound IP whitelists on your firewall, etc.
+Bonus script `get-whois-ips` builds a current list of IPs used by the WHOIS servers (so that you can add them to outbound IP whitelists on your firewall, etc.)
 
 Example
 -------
