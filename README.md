@@ -8,7 +8,7 @@ It's also a convenience repository to hold the data when I run the script myself
 Be nice
 -------
 
-Be polite - don't run this too often. TLDs are released or changed infrequently (though more frequently than they used to be!). Unfortunately, since at this writing the iana.org web server doesn't send Last-Modified headers, there's no way to be automatically more polite.
+Be polite - don't run this too often (once a month is probably fine). TLDs are released or changed infrequently (though more frequently than they used to be!). Unfortunately, since at this writing the iana.org web server doesn't send Last-Modified headers, there's no way to be automatically more polite.
 
 Share. Let me know when you notice a significant change.
 
