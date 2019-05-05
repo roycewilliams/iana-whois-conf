@@ -1,12 +1,20 @@
 #!/bin/bash
 
-echo " - Setting baselines ..."
-cp -pvr cache/                   cache.baseline/
-cp -pv  db.html                  db.html.baseline
-cp -pv  tld.list                 tld.list.baseline
-cp -pv  whois.conf               whois.conf.baseline
-cp -pv  whois-ips-raw.list       whois-ips-raw.list.baseline
-cp -pv  whois-ips-whitelist.list whois-ips-whitelist.list.baseline
+echo "Setting baselines ..."
+
+for file in db.html tld.list whois.conf whois-ips-raw.list whois-ips-whitelist.list; do
+
+    echo "- Baselining ${file} ..."
+
+    diff -u ${file}.baseline ${file}
+
+    cp -pv  ${file}.baseline ${file}
+
+    ls -la ${file}.baseline ${file}
+
+    echo ""
+
+done
 
 echo ""
 
