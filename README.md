@@ -1,7 +1,7 @@
 iana-whois-conf
 ==============
 
-This is an ugly hack to harvest the official list of WHOIS servers from IANA for all TLDs, and build a unified whois.conf, inspired by [this SuperUser question](http://superuser.com/questions/758647).
+This is an ugly hack to harvest the official list of WHOIS servers from IANA for all TLDs, and build a unified whois.conf, inspired by [this SuperUser question](http://superuser.com/questions/758647), which was prompted by the recent huge surge in new non-country TLDs.
 
 It's also a convenience repository to hold the data when I run the script myself once in a while (the `*.baseline` files, especially `whois.conf.baseline`).
 
