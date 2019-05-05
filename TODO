@@ -7,7 +7,4 @@ TODO for roycewilliams/iana-whois-conf
 
 - Abstract delta processing from fetch (clean separation between FreeBSD and non)
 
-- Add jwhois-compatible format:
-        "\\.cn\\.com$" = "whois.centralnic.net";
-
 ------------------------------------------------------------------------------
