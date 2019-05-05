@@ -3,6 +3,8 @@ iana-whois-conf
 
 This is an ugly hack to harvest the official list of WHOIS servers from IANA for all TLDs, and build a unified whois.conf, inspired by [this SuperUser question](http://superuser.com/questions/758647).
 
+It's also a convenience repository to hold the data when I run the script myself once in a while (the `*.baseline` files, especially `whois.conf.baseline`).
+
 Be nice
 -------
 
@@ -112,6 +114,7 @@ $ ./build-whois.sh
 
 - To set baseline:
 cp -p whois.conf whois.conf.baseline
+
 - Building jwhois.conf ...
 1209 jwhois.conf
 
