@@ -9,4 +9,6 @@ TODO for roycewilliams/iana-whois-conf
 
 - Integrate awareness of non-TLD quasi-TLDs (public suffixes - https://publicsuffix.org/)
 
+- Separate repo baselines from user's local ones (.local suffix, maybe?)
+
 ------------------------------------------------------------------------------

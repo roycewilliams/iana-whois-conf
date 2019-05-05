@@ -25,9 +25,9 @@ This generates `whois.conf`.
 
 3. Set baseline files as needed.
 
-This script doesn't presume to know when you want to set your baseline files.
+These *scripts* do not presume to know when you want to set your baseline files. You can set them in buld with `./set-baselines.sh`.
 
-You can set them in buld with `./set-baselines.sh`.
+However, this *repo* also serves as a way for me to publish my own baselines for public reference. This should probably be separated out into a `.local` concept.
 
 Notes
 -----
