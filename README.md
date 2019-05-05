@@ -12,7 +12,7 @@ Share. Let me know when you notice a significant change.
 
 [This question](http://superuser.com/questions/758647) used to have the entire list, but someone decided that an answer to the question was dynamic enough that it probably shouldn't be maintained in a Stack Exchange answer (which is somewhat fair).
 
-** Please only send pull requests for the scripts - not for the data (updates to the cache or the baselines, etc.) ** Run the scripts themselves for your own updates. That being said, I pushed the baselines for general use and for people who can't run these scripts themselves for some reason, so if I'm being lazy and haven't updated in a while, ping me at royce@techsolvency.com, and I'll update when I can.
+**Please only send pull requests for the scripts - not for the data (updates to the cache or the baselines, etc.)** Run the scripts themselves for your own updates. That being said, I pushed the baselines for general use and for people who can't run these scripts themselves for some reason, so if I'm being lazy and haven't updated in a while, ping me at royce@techsolvency.com, and I'll update when I can.
 
 Howto
 ----
