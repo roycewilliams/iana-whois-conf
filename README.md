@@ -27,7 +27,11 @@ This will download IANA's master list of TLDs, and then download the page for ea
 
 This generates output in `whois.conf` and `jwhois.conf`-compatible syntax.
 
-3. Set baseline files as needed.
+3. Optionally run `get-whois-ips.sh`
+
+This bonus script builds a current list of IPs used by the WHOIS servers (so that you can add them to outbound IP whitelists on your firewall, etc.)
+
+4. Set baseline files as needed.
 
 These *scripts* do not presume to know when you want to set your baseline files. You can set them in buld with `./set-baselines.sh`.
 
@@ -38,8 +42,6 @@ Notes
 Some domains appear to have lost their WHOIS for some reason over time.  I have not had time to investigate why for each one, so I just keep the old ones by using  `sdiff -o mergedfile oldfile newfile`.
 
 It would be really great if IANA would publish a current whois.conf themselves.
-
-Bonus script `get-whois-ips` builds a current list of IPs used by the WHOIS servers (so that you can add them to outbound IP whitelists on your firewall, etc.)
 
 Note that de-facto TLDs - where users can register names, but it's more than one level deep (.co.uk, etc.) - are not currently included. Eventually, I'd like to bring in info from [the Public Suffix List](https://publicsuffix.org/) and merge known WHOIS info for those as well. The `whois.conf` and `jwhois.conf` files in various distros already include some of these.
 
