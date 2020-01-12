@@ -33,7 +33,7 @@ This bonus script builds a current list of IPs used by the WHOIS servers (so tha
 
 4. Set baseline files as needed.
 
-These *scripts* do not presume to know when you want to set your baseline files. You can set them in buld with `./set-baselines.sh`.
+These *scripts* do not presume to know when you want to set your baseline files. You can set them in bulk with `./set-baselines.sh`.
 
 However, this *repo* also serves as a way for me to publish my own baselines for public reference. This should probably be separated out into a `.local` concept.
 
