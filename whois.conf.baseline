@@ -24,7 +24,6 @@
 \.agakhan$ whois.afilias-srs.net
 \.agency$ whois.nic.agency
 \.ag$ whois.nic.ag
-\.aigo$ whois.afilias-srs.net
 \.ai$ whois.nic.ai
 \.airbus$ whois.nic.airbus
 \.airforce$ whois.nic.airforce
@@ -38,6 +37,7 @@
 \.ally$ whois.nic.ally
 \.alsace$ whois-alsace.nic.fr
 \.alstom$ whois.nic.alstom
+\.amazon$ whois.nic.amazon
 \.americanfamily$ whois.nic.americanfamily
 \.amfam$ whois.nic.amfam
 \.am$ whois.amnic.net
@@ -49,7 +49,7 @@
 \.apartments$ whois.nic.apartments
 \.app$ whois.nic.google
 \.apple$ whois.afilias-srs.net
-\.aquarelle$ whois-aquarelle.nic.fr
+\.aquarelle$ whois.nic.aquarelle
 \.arab$ whois.nic.arab
 \.archi$ whois.afilias.net
 \.ar$ whois.nic.ar
@@ -130,7 +130,7 @@
 \.boo$ whois.nic.google
 \.book$ whois.nic.book
 \.bosch$ whois.nic.bosch
-\.bostik$ whois-bostik.nic.fr
+\.bostik$ whois.nic.bostik
 \.boston$ whois.nic.boston
 \.bot$ whois.nic.bot
 \.boutique$ whois.nic.boutique
@@ -306,6 +306,7 @@
 \.dvag$ whois.nic.dvag
 \.dvr$ whois.nic.dvr
 \.dz$ whois.nic.dz
+\.earth$ whois.nic.earth
 \.eat$ whois.nic.google
 \.ec$ whois.nic.ec
 \.eco$ whois.nic.eco
@@ -326,7 +327,6 @@
 \.es$ whois.nic.es
 \.esq$ whois.nic.google
 \.estate$ whois.nic.estate
-\.esurance$ whois.afilias-srs.net
 \.etisalat$ whois.centralnic.com
 \.eu$ whois.eu
 \.eurovision$ whois.nic.eurovision
@@ -569,7 +569,7 @@
 \.la$ whois.nic.la
 \.lamborghini$ whois.afilias-srs.net
 \.lamer$ whois.nic.lamer
-\.lancaster$ whois-lancaster.nic.fr
+\.lancaster$ whois.nic.lancaster
 \.lancia$ whois.afilias-srs.net
 \.land$ whois.nic.land
 \.landrover$ whois.nic.landrover
@@ -658,7 +658,8 @@
 \.mk$ whois.marnet.mk
 \.ml$ whois.dot.ml
 \.mls$ whois.nic.mls
-\.mma$ whois-mma.nic.fr
+\.mma$ whois.nic.mma
+\.mm$ whois.registry.gov.mm
 \.mn$ whois.nic.mn
 \.mobi$ whois.nic.mobi
 \.mobile$ whois.nic.mobile
@@ -689,7 +690,6 @@
 \.my$ whois.mynic.my
 \.mz$ whois.nic.mz
 \.nab$ whois.nic.nab
-\.nadex$ whois.nic.nadex
 \.nagoya$ whois.nic.nagoya
 \.na$ whois.na-nic.com.na
 \.name$ whois.nic.name
@@ -887,7 +887,6 @@
 \.schwarz$ whois.nic.schwarz
 \.science$ whois.nic.science
 \.scjohnson$ whois.nic.scjohnson
-\.scor$ whois.nic.scor
 \.scot$ whois.nic.scot
 \.search$ whois.nic.google
 \.seat$ whois.nic.seat
@@ -931,7 +930,7 @@
 \.smart$ whois.nic.smart
 \.sm$ whois.nic.sm
 \.smile$ whois.nic.smile
-\.sncf$ whois-sncf.nic.fr
+\.sncf$ whois.nic.sncf
 \.sn$ whois.nic.sn
 \.soccer$ whois.nic.soccer
 \.social$ whois.nic.social
@@ -979,6 +978,7 @@
 \.tab$ whois.nic.tab
 \.taipei$ whois.nic.taipei
 \.talk$ whois.nic.talk
+\.tatamotors$ whois.nic.tatamotors
 \.tatar$ whois.nic.tatar
 \.tattoo$ whois.uniregistry.net
 \.tax$ whois.nic.tax
@@ -999,7 +999,7 @@
 \.thd$ whois.nic.thd
 \.theater$ whois.nic.theater
 \.theatre$ whois.nic.theatre
-\.th$ whois.thnic.co.th
+\.th$ whois.thains.co.th
 \.tiaa$ whois.nic.tiaa
 \.tickets$ whois.nic.tickets
 \.tienda$ whois.nic.tienda
@@ -1018,7 +1018,7 @@
 \.top$ whois.nic.top
 \.toray$ whois.nic.toray
 \.toshiba$ whois.nic.toshiba
-\.total$ whois-total.nic.fr
+\.total$ whois.nic.total
 \.tours$ whois.nic.tours
 \.town$ whois.nic.town
 \.toyota$ whois.nic.toyota
@@ -1074,7 +1074,6 @@
 \.virgin$ whois.nic.virgin
 \.visa$ whois.nic.visa
 \.vision$ whois.nic.vision
-\.vistaprint$ whois.nic.vistaprint
 \.viva$ whois.nic.viva
 \.vlaanderen$ whois.nic.vlaanderen
 \.vodka$ whois.nic.vodka
@@ -1153,6 +1152,7 @@
 \.xn--b4w605ferd$ whois.afilias-srs.net
 \.xn--c1avg$ whois.publicinterestregistry.net
 \.xn--c2br7g$ whois.nic.xn--c2br7g
+\.xn--cckwcxetd$ whois.nic.xn--cckwcxetd
 \.xn--cg4bki$ whois.kr
 \.xn--clchc0ea0b2g2a9gcd$ whois.sgnic.sg
 \.xn--czrs0t$ whois.nic.xn--czrs0t
@@ -1161,7 +1161,6 @@
 \.xn--d1alf$ whois.marnet.mk
 \.xn--e1a4c$ whois.eu
 \.xn--efvy88h$ whois.nic.xn--efvy88h
-\.xn--estv75g$ whois.nic.xn--estv75g
 \.xn--fhbei$ whois.nic.xn--fhbei
 \.xn--fiq228c5hs$ whois.teleinfo.cn
 \.xn--fiq64b$ whois.gtld.knet.cn
@@ -1181,6 +1180,7 @@
 \.xn--j1aef$ whois.nic.xn--j1aef
 \.xn--j1amh$ whois.dotukr.com
 \.xn--j6w193g$ whois.hkirc.hk
+\.xn--jlq480n2rg$ whois.nic.xn--jlq480n2rg
 \.xn--jlq61u9w7b$ whois.nic.xn--jlq61u9w7b
 \.xn--kcrx77d1x4a$ whois.nic.xn--kcrx77d1x4a
 \.xn--kprw13d$ whois.twnic.net.tw
@@ -1212,11 +1212,13 @@
 \.xn--node$ whois.itdc.ge
 \.xn--nqv7f$ whois.publicinterestregistry.net
 \.xn--nqv7fs00ema$ whois.nic.xn--nqv7fs00ema
-\.xn--o3cw4h$ whois.thnic.co.th
+\.xn--o3cw4h$ whois.thains.co.th
 \.xn--ogbpf8fl$ whois.tld.sy
 \.xn--p1acf$ whois.nic.xn--p1acf
 \.xn--p1ai$ whois.tcinet.ru
+\.xn--pgbs0dh$ whois.ati.tn
 \.xn--pssy2u$ whois.nic.xn--pssy2u
+\.xn--q7ce6a$ whois.nic.la
 \.xn--q9jyb4c$ whois.nic.google
 \.xn--qcka1pmc$ whois.nic.google
 \.xn--qxa6a$ whois.eu
