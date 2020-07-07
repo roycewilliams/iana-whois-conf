@@ -10,7 +10,7 @@ Be nice
 
 Be polite - don't run this too often (once a month is probably fine). TLDs are released or changed infrequently (though more frequently than they used to be!). Unfortunately, since at this writing the iana.org web server doesn't send Last-Modified headers, there's no way to be automatically more polite.
 
-Share. Let me know when you notice a significant change.
+Share. Let me know when you notice a significant change at the authoritative source (IANA). Changes not shown by IANA are out of scope for this project.
 
 [This question](http://superuser.com/questions/758647) used to have the entire list, but someone decided that an answer to the question was dynamic enough that it probably shouldn't be maintained in a Stack Exchange answer (which is somewhat fair).
 
