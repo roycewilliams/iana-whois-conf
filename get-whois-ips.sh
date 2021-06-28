@@ -23,5 +23,7 @@ diff -u whois-ips-raw.list.baseline whois-ips-raw.list
 awk '{print $2}' whois-ips-raw.list| sort -u | ipsort >whois-ips-whitelist.list
 wc -l whois-ips-whitelist.list
 diff -u whois-ips-whitelist.list.baseline whois-ips-whitelist.list
+echo "To commit:"
+echo cp -p whois-ips-whitelist.list whois-ips-whitelist.list.baseline
 
 #-----------------------------------------------------------------------
