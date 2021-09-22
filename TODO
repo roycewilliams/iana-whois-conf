@@ -11,4 +11,6 @@ TODO for roycewilliams/iana-whois-conf
 
 - Separate repo baselines from user's local ones (.local suffix, maybe?)
 
+- Add datestamp to generated files, so if published out of context, age is apparent
+
 ------------------------------------------------------------------------------
