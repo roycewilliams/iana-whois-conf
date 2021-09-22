@@ -24,11 +24,11 @@ echo "- Checking for differences from last db.html fetch ..."
 diff -u db.html.baseline db.html
 
 # Build URL list
-FILE_LIST=`egrep "/domains/root/db/.*.html" db.html | cut -d\" -f4`
+FILE_LIST=$(egrep "/domains/root/db/.*.html" db.html | cut -d\" -f4)
 
 
 echo "- Refreshing list of TLDs ..."
-#echo "# TLD list derived from iana.org - `date`" >tld.list.new
+#echo "# TLD list derived from iana.org - $(date)" >tld.list.new
 echo ""
 for suburl in ${FILE_LIST}; do
     TLD=$(basename $suburl | cut -d\. -f1)

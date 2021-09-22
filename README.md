@@ -10,7 +10,7 @@ Be nice
 
 Be polite - don't run this too often (once a month is probably fine). TLDs are released or changed infrequently (though more frequently than they used to be!). Unfortunately, since at this writing the iana.org web server doesn't send Last-Modified headers, there's no way to be automatically more polite.
 
-Share. Let me know when you notice a significant change.
+Share. Let me know when you notice a significant change at the authoritative source (IANA). Changes not shown by IANA are out of scope for this project.
 
 [This question](http://superuser.com/questions/758647) used to have the entire list, but someone decided that an answer to the question was dynamic enough that it probably shouldn't be maintained in a Stack Exchange answer (which is somewhat fair).
 
@@ -27,9 +27,13 @@ This will download IANA's master list of TLDs, and then download the page for ea
 
 This generates output in `whois.conf` and `jwhois.conf`-compatible syntax.
 
-3. Set baseline files as needed.
+3. Optionally run `get-whois-ips.sh`
 
-These *scripts* do not presume to know when you want to set your baseline files. You can set them in buld with `./set-baselines.sh`.
+This bonus script builds a current list of IPs used by the WHOIS servers (so that you can add them to outbound IP whitelists on your firewall, etc.)
+
+4. Set baseline files as needed.
+
+These *scripts* do not presume to know when you want to set your baseline files. You can set them in bulk with `./set-baselines.sh`.
 
 However, this *repo* also serves as a way for me to publish my own baselines for public reference. This should probably be separated out into a `.local` concept.
 
@@ -38,8 +42,6 @@ Notes
 Some domains appear to have lost their WHOIS for some reason over time.  I have not had time to investigate why for each one, so I just keep the old ones by using  `sdiff -o mergedfile oldfile newfile`.
 
 It would be really great if IANA would publish a current whois.conf themselves.
-
-Bonus script `get-whois-ips` builds a current list of IPs used by the WHOIS servers (so that you can add them to outbound IP whitelists on your firewall, etc.)
 
 Note that de-facto TLDs - where users can register names, but it's more than one level deep (.co.uk, etc.) - are not currently included. Eventually, I'd like to bring in info from [the Public Suffix List](https://publicsuffix.org/) and merge known WHOIS info for those as well. The `whois.conf` and `jwhois.conf` files in various distros already include some of these.
 
