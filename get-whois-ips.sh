@@ -9,10 +9,15 @@
 
 ipsort () { sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n $*; }
 
+# Set this to a specific nameserver if needed.
+#NAMESERVER=8.8.8.8
+#NAMESERVER=1.1.1.1
+NAMESERVER=
+
 #-----------------------------------------------------------------------
 
 for host in $(awk '{print $2}' whois.conf | sort -u); do
-    MYIPS=$(host -t A -4 $host 2>&1 | grep 'has address' | awk '{print $4}')
+    MYIPS=$(host -t A -4 $host "${NAMESERVER}" 2>&1 | grep 'has address' | awk '{print $4}')
     for ip in ${MYIPS}; do
         echo "$host ${ip}"
     done
