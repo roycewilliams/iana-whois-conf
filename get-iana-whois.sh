@@ -11,28 +11,35 @@ BASE_HOST=www.iana.org
 BASE_URL="https://${BASE_HOST}"
 BASE_DB_URL="${BASE_URL}/domains/root/db"
 CACHE_DIR=./cache/
+SLEEPSECONDS=1
 
 OS=$(uname -s)
-ARCH=$(uname -m)
-VER=$(uname -r)
+
+#-----------------------------------------------------------------------------
+# Sanity checks
+
+if [ ! -d "${CACHE_DIR}" ]; then
+    >&2 echo "- Error: cache dir ${CACHE_DIR} does not exist"
+    exit 1
+fi
 
 #-----------------------------------------------------------------------------
 # Fetch main DB page from IANA.
 echo "- Fetching latest db.html ..."
-wget --quiet -O db.html -N --no-check-certificate ${BASE_DB_URL}
+wget --quiet -O db.html -N --no-check-certificate "${BASE_DB_URL}"
 echo "- Checking for differences from last db.html fetch ..."
 diff -u db.html.baseline db.html
 
 # Build URL list
-FILE_LIST=$(egrep "/domains/root/db/.*.html" db.html | cut -d\" -f4)
+FILE_LIST=$(grep "/domains/root/db/.*.html" db.html | cut -d\" -f4)
 
 
 echo "- Refreshing list of TLDs ..."
 #echo "# TLD list derived from iana.org - $(date)" >tld.list.new
 echo ""
 for suburl in ${FILE_LIST}; do
-    TLD=$(basename $suburl | cut -d\. -f1)
-    echo ${TLD}
+    TLD=$(basename "$suburl" | cut -d\. -f1)
+    echo "${TLD}"
 done | sort -u >tld.list
 echo "- Record count:"
 wc -l tld.list
@@ -58,12 +65,13 @@ case ${OS} in
         # TODO - move list processing outside of fetch loop
         # TODO - skip if already exists
         for suburl in ${FILE_LIST}; do
-            TLD=$(basename $suburl | cut -d\. -f1)
+            TLD=$(basename "$suburl" | cut -d\. -f1)
             TLDFILE=cache/${TLD}.html
-            if [ ! -f ${TLDFILE} ]; then
+            if [ ! -f "${TLDFILE}" ]; then
                 echo ""
-                pushd ${CACHE_DIR};
-                wget -N -nd ${BASE_URL}/${suburl};
+                pushd "${CACHE_DIR}" || exit
+                wget -N -nd "${BASE_URL}/${suburl}"
+                sleep "${SLEEPSECONDS}"
                 popd
             else
                 echo -n '.'
