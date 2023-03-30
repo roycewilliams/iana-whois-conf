@@ -1,46 +1,46 @@
 <!doctype html>
 <html>
 <head>
-	<title>IANA — Root Zone Database</title>
+	<title>Root Zone Database</title>
 
 	<meta charset="utf-8" />
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
-	<link rel="stylesheet" media="screen" href="/_css/2015.1/screen.css"/>
-	<link rel="stylesheet" media="print" href="/_css/2015.1/print.css"/>
+	<link rel="stylesheet" href="/_css/2022/iana_website.css"/>
 	<link rel="shortcut icon" type="image/ico" href="/_img/bookmark_icon.ico"/>
 
-	<script type="text/javascript" src="/_js/2013.1/jquery.js"></script>
-	<script type="text/javascript" src="/_js/2013.1/iana.js"></script>
+	<script type="text/javascript" src="/_js/jquery.js"></script>
+	<script type="text/javascript" src="/_js/iana.js"></script>
 
 	
-
 </head>
 
 <body>
-	
-	<header>
-		<div id="header">
-			<div id="logo">
-				<a href="/"><img src="/_img/2013.1/iana-logo-header.svg" alt="Homepage"/></a>
-			</div>
-			<div class="navigation">
-				<ul>
-					<li><a href="/domains">Domains</a></li>
-					<li><a href="/numbers">Numbers</a></li>
-					<li><a href="/protocols">Protocols</a></li>
-					<li><a href="/about">About Us</a></li>
-				</ul>
-			</div>
-		</div>
-	</header>
-	
-	<div id="body">
-	
 
-			<div id="main_right">
+<header>
+    <div id="header">
+        <div id="logo">
+            <a href="/"><img src="/_img/2022/iana-logo-header.svg" alt="Homepage"/></a>
+        </div>
+        <div class="navigation">
+            <ul>
+                <li><a href="/domains">Domains</a></li>
+                <li><a href="/protocols">Protocols</a></li>
+                <li><a href="/numbers">Numbers</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
 
+<div id="body">
+
+
+<article class="hemmed sidenav">
+
+    <main>
+    
 
     <h1>Root Zone Database</h1>
 
@@ -143,7 +143,7 @@
             <span class="domain tld"><a href="/domains/root/db/abogado.html">.abogado</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -242,7 +242,7 @@
             <span class="domain tld"><a href="/domains/root/db/adac.html">.adac</a></span></td>
             
         <td>generic</td>
-        <td>Allgemeiner Deutscher Automobil-Club e.V. (ADAC)</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -269,7 +269,7 @@
             <span class="domain tld"><a href="/domains/root/db/ae.html">.ae</a></span></td>
             
         <td>country-code</td>
-        <td>Telecommunication Regulatory Authority (TRA)</td>
+        <td>Telecommunications and Digital Government Regulatory Authority (TDRA)</td>
     </tr>
     
     <tr>
@@ -314,7 +314,7 @@
             <span class="domain tld"><a href="/domains/root/db/afamilycompany.html">.afamilycompany</a></span></td>
             
         <td>generic</td>
-        <td>Johnson Shareholdings, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -584,7 +584,7 @@
             <span class="domain tld"><a href="/domains/root/db/an.html">.an</a></span></td>
             
         <td>country-code</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -863,7 +863,7 @@
             <span class="domain tld"><a href="/domains/root/db/audio.html">.audio</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -1124,9 +1124,7 @@
             <span class="domain tld"><a href="/domains/root/db/bb.html">.bb</a></span></td>
             
         <td>country-code</td>
-        <td>Government of Barbados
-Ministry of Economic Affairs and Development
-Telecommunications Unit</td>
+        <td>Ministry of Innovation, Science and Smart Technology</td>
     </tr>
     
     <tr>
@@ -1216,7 +1214,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/beer.html">.beer</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -1306,7 +1304,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/bi.html">.bi</a></span></td>
             
         <td>country-code</td>
-        <td>Centre National de l&#39;Informatique</td>
+        <td>Centre National de l&#x27;Informatique</td>
     </tr>
     
     <tr>
@@ -1405,7 +1403,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/blackfriday.html">.blackfriday</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -1621,7 +1619,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/boston.html">.boston</a></span></td>
             
         <td>generic</td>
-        <td>Boston TLD Management, LLC</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -1702,7 +1700,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/broker.html">.broker</a></span></td>
             
         <td>generic</td>
-        <td>DOTBROKER REGISTRY LTD</td>
+        <td>Dog Beach, LLC</td>
     </tr>
     
     <tr>
@@ -1747,7 +1745,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/budapest.html">.budapest</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -1756,7 +1754,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/bugatti.html">.bugatti</a></span></td>
             
         <td>generic</td>
-        <td>Bugatti International SA</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -1828,7 +1826,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/by.html">.by</a></span></td>
             
         <td>country-code</td>
-        <td>Reliable Software, Ltd.</td>
+        <td>Belarusian Cloud Technologies LLC</td>
     </tr>
     
     <tr>
@@ -1909,7 +1907,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/cam.html">.cam</a></span></td>
             
         <td>generic</td>
-        <td>AC Webconnecting Holding B.V.</td>
+        <td>CAM Connecting SARL</td>
     </tr>
     
     <tr>
@@ -1936,7 +1934,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/cancerresearch.html">.cancerresearch</a></span></td>
             
         <td>generic</td>
-        <td>Australian Cancer Research Foundation</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -2053,7 +2051,7 @@ Telecommunications Unit</td>
             <span class="domain tld"><a href="/domains/root/db/casa.html">.casa</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -2279,7 +2277,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/charity.html">.charity</a></span></td>
             
         <td>generic</td>
-        <td>Binky Moon, LLC</td>
+        <td>Public Interest Registry (PIR)</td>
     </tr>
     
     <tr>
@@ -2333,7 +2331,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/christmas.html">.christmas</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -2486,7 +2484,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/click.html">.click</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Internet Naming Co.</td>
     </tr>
     
     <tr>
@@ -2531,7 +2529,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/club.html">.club</a></span></td>
             
         <td>generic</td>
-        <td>.CLUB DOMAINS, LLC</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -2738,7 +2736,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/cooking.html">.cooking</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -2783,7 +2781,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/country.html">.country</a></span></td>
             
         <td>generic</td>
-        <td>Top Level Domain Holdings Limited</td>
+        <td>Internet Naming Co.</td>
     </tr>
     
     <tr>
@@ -2810,7 +2808,7 @@ Ltd. d/b/a Island Internet Services</td>
             <span class="domain tld"><a href="/domains/root/db/courses.html">.courses</a></span></td>
             
         <td>generic</td>
-        <td>OPEN UNIVERSITIES AUSTRALIA PTY LTD</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -2910,7 +2908,7 @@ Academia Nacional de Ciencias</td>
             <span class="domain tld"><a href="/domains/root/db/csc.html">.csc</a></span></td>
             
         <td>generic</td>
-        <td>Alliance-One Services, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -3083,7 +3081,7 @@ Capitolio Nacional</td>
             <span class="domain tld"><a href="/domains/root/db/dds.html">.dds</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -3209,7 +3207,7 @@ Capitolio Nacional</td>
             <span class="domain tld"><a href="/domains/root/db/design.html">.design</a></span></td>
             
         <td>generic</td>
-        <td>Top Level Design, LLC</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -3245,7 +3243,7 @@ Capitolio Nacional</td>
             <span class="domain tld"><a href="/domains/root/db/diet.html">.diet</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -3417,7 +3415,7 @@ Recinto Santo Tomas de Aquino</td>
             <span class="domain tld"><a href="/domains/root/db/doosan.html">.doosan</a></span></td>
             
         <td>generic</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -3471,7 +3469,7 @@ Recinto Santo Tomas de Aquino</td>
             <span class="domain tld"><a href="/domains/root/db/duck.html">.duck</a></span></td>
             
         <td>generic</td>
-        <td>Johnson Shareholdings, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -3498,7 +3496,7 @@ Recinto Santo Tomas de Aquino</td>
             <span class="domain tld"><a href="/domains/root/db/dupont.html">.dupont</a></span></td>
             
         <td>generic</td>
-        <td>E. I. du Pont de Nemours and Company</td>
+        <td>DuPont Specialty Products USA, LLC</td>
     </tr>
     
     <tr>
@@ -3543,7 +3541,7 @@ Recinto Santo Tomas de Aquino</td>
             <span class="domain tld"><a href="/domains/root/db/earth.html">.earth</a></span></td>
             
         <td>generic</td>
-        <td>Interlink Co., Ltd.</td>
+        <td>Interlink Systems Innovation Institute K.K.</td>
     </tr>
     
     <tr>
@@ -3967,7 +3965,7 @@ Supreme Council of Universities</td>
             <span class="domain tld"><a href="/domains/root/db/fashion.html">.fashion</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -4129,7 +4127,7 @@ Supreme Council of Universities</td>
             <span class="domain tld"><a href="/domains/root/db/fishing.html">.fishing</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -4138,7 +4136,7 @@ Supreme Council of Universities</td>
             <span class="domain tld"><a href="/domains/root/db/fit.html">.fit</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -4211,7 +4209,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/flowers.html">.flowers</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -4220,7 +4218,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/flsmidth.html">.flsmidth</a></span></td>
             
         <td>generic</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -4301,7 +4299,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/forex.html">.forex</a></span></td>
             
         <td>generic</td>
-        <td>DOTFOREX REGISTRY LTD</td>
+        <td>Dog Beach, LLC</td>
     </tr>
     
     <tr>
@@ -4328,7 +4326,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/foundation.html">.foundation</a></span></td>
             
         <td>generic</td>
-        <td>Binky Moon, LLC</td>
+        <td>Public Interest Registry (PIR)</td>
     </tr>
     
     <tr>
@@ -4436,7 +4434,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/fun.html">.fun</a></span></td>
             
         <td>generic</td>
-        <td>DotSpace, Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -4526,7 +4524,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/game.html">.game</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -4553,7 +4551,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/garden.html">.garden</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -4715,7 +4713,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/gives.html">.gives</a></span></td>
             
         <td>generic</td>
-        <td>Dog Beach, LLC</td>
+        <td>Public Interest Registry (PIR)</td>
     </tr>
     
     <tr>
@@ -4724,7 +4722,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/giving.html">.giving</a></span></td>
             
         <td>generic</td>
-        <td>Giving Limited</td>
+        <td>Public Interest Registry (PIR)</td>
     </tr>
     
     <tr>
@@ -4742,7 +4740,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/glade.html">.glade</a></span></td>
             
         <td>generic</td>
-        <td>Johnson Shareholdings, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -5102,7 +5100,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/guitars.html">.guitars</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -5264,7 +5262,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/hiphop.html">.hiphop</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Dot Hip Hop, LLC</td>
     </tr>
     
     <tr>
@@ -5291,7 +5289,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/hiv.html">.hiv</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Internet Naming Co.</td>
     </tr>
     
     <tr>
@@ -5417,7 +5415,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/horse.html">.horse</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -5435,7 +5433,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/host.html">.host</a></span></td>
             
         <td>generic</td>
-        <td>DotHost Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -5444,7 +5442,7 @@ IT Services</td>
             <span class="domain tld"><a href="/domains/root/db/hosting.html">.hosting</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -5653,7 +5651,7 @@ Computer Centre</td>
             <span class="domain tld"><a href="/domains/root/db/iinet.html">.iinet</a></span></td>
             
         <td>generic</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -6193,7 +6191,7 @@ Computer Centre</td>
             <span class="domain tld"><a href="/domains/root/db/juegos.html">.juegos</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Internet Naming Company LLC</td>
     </tr>
     
     <tr>
@@ -6302,6 +6300,15 @@ Computer Centre</td>
             
         <td>generic</td>
         <td>KIA MOTORS CORPORATION</td>
+    </tr>
+    
+    <tr>
+        <td>
+            
+            <span class="domain tld"><a href="/domains/root/db/kids.html">.kids</a></span></td>
+            
+        <td>generic</td>
+        <td>DotKids Foundation Limited</td>
     </tr>
     
     <tr>
@@ -6499,7 +6506,8 @@ Computer Centre</td>
             <span class="domain tld"><a href="/domains/root/db/la.html">.la</a></span></td>
             
         <td>country-code</td>
-        <td>Lao National Internet Committee (LANIC), Ministry of Posts and Telecommunications</td>
+        <td>Lao National Internet Center (LANIC),
+Ministry of Technology and Communications</td>
     </tr>
     
     <tr>
@@ -6508,7 +6516,7 @@ Computer Centre</td>
             <span class="domain tld"><a href="/domains/root/db/lacaixa.html">.lacaixa</a></span></td>
             
         <td>generic</td>
-        <td>CAIXA D&#39;ESTALVIS I PENSIONS DE BARCELONA</td>
+        <td>CAIXA D&#x27;ESTALVIS I PENSIONS DE BARCELONA</td>
     </tr>
     
     <tr>
@@ -6607,7 +6615,7 @@ Computer Centre</td>
             <span class="domain tld"><a href="/domains/root/db/lat.html">.lat</a></span></td>
             
         <td>generic</td>
-        <td>ECOM-LAC Federación de Latinoamérica y el Caribe para Internet y el Comercio Electrónico</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -6634,7 +6642,7 @@ Computer Centre</td>
             <span class="domain tld"><a href="/domains/root/db/law.html">.law</a></span></td>
             
         <td>generic</td>
-        <td>LW TLD Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -6851,7 +6859,7 @@ Computing and Networking Services</td>
             <span class="domain tld"><a href="/domains/root/db/linde.html">.linde</a></span></td>
             
         <td>generic</td>
-        <td>Linde Aktiengesellschaft</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -6860,7 +6868,7 @@ Computing and Networking Services</td>
             <span class="domain tld"><a href="/domains/root/db/link.html">.link</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Nova Registry Ltd.</td>
     </tr>
     
     <tr>
@@ -6896,7 +6904,7 @@ Computing and Networking Services</td>
             <span class="domain tld"><a href="/domains/root/db/lixil.html">.lixil</a></span></td>
             
         <td>generic</td>
-        <td>LIXIL Group Corporation</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -6924,7 +6932,7 @@ LK Domain Registrar</td>
             <span class="domain tld"><a href="/domains/root/db/llp.html">.llp</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Intercap Registry Inc.</td>
     </tr>
     
     <tr>
@@ -6969,7 +6977,7 @@ LK Domain Registrar</td>
             <span class="domain tld"><a href="/domains/root/db/loft.html">.loft</a></span></td>
             
         <td>generic</td>
-        <td>Annco, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -6978,7 +6986,7 @@ LK Domain Registrar</td>
             <span class="domain tld"><a href="/domains/root/db/lol.html">.lol</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -7113,7 +7121,7 @@ LK Domain Registrar</td>
             <span class="domain tld"><a href="/domains/root/db/luxe.html">.luxe</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -7160,7 +7168,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/macys.html">.macys</a></span></td>
             
         <td>generic</td>
-        <td>Macys, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -7259,7 +7267,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/markets.html">.markets</a></span></td>
             
         <td>generic</td>
-        <td>DOTMARKETS REGISTRY LTD</td>
+        <td>Dog Beach, LLC</td>
     </tr>
     
     <tr>
@@ -7349,7 +7357,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/md.html">.md</a></span></td>
             
         <td>country-code</td>
-        <td>MoldData S.E.</td>
+        <td>IP Serviciul Tehnologia Informatiei si Securitate Cibernetica</td>
     </tr>
     
     <tr>
@@ -7430,7 +7438,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/menu.html">.menu</a></span></td>
             
         <td>generic</td>
-        <td>Wedding TLD2, LLC</td>
+        <td>Dot Menu Registry LLC</td>
     </tr>
     
     <tr>
@@ -7493,7 +7501,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/miami.html">.miami</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -7628,7 +7636,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/mobi.html">.mobi</a></span></td>
             
         <td>generic</td>
-        <td>Afilias Technologies Limited dba dotMobi</td>
+        <td>Afilias Limited</td>
     </tr>
     
     <tr>
@@ -7664,7 +7672,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/moe.html">.moe</a></span></td>
             
         <td>generic</td>
-        <td>Interlink Co., Ltd.</td>
+        <td>Interlink Systems Innovation Institute K.K.</td>
     </tr>
     
     <tr>
@@ -7682,7 +7690,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/mom.html">.mom</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -7871,7 +7879,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/mtpc.html">.mtpc</a></span></td>
             
         <td>generic</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -7904,6 +7912,15 @@ Department of Network Solutions (DNS)</td>
     <tr>
         <td>
             
+            <span class="domain tld"><a href="/domains/root/db/music.html">.music</a></span></td>
+            
+        <td>generic</td>
+        <td>DotMusic Limited</td>
+    </tr>
+    
+    <tr>
+        <td>
+            
             <span class="domain tld"><a href="/domains/root/db/mutual.html">.mutual</a></span></td>
             
         <td>generic</td>
@@ -7916,7 +7933,7 @@ Department of Network Solutions (DNS)</td>
             <span class="domain tld"><a href="/domains/root/db/mutuelle.html">.mutuelle</a></span></td>
             
         <td>generic</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -8450,7 +8467,7 @@ Centro de Computo</td>
             <span class="domain tld"><a href="/domains/root/db/off.html">.off</a></span></td>
             
         <td>generic</td>
-        <td>Johnson Shareholdings, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -8558,7 +8575,7 @@ Centro de Computo</td>
             <span class="domain tld"><a href="/domains/root/db/online.html">.online</a></span></td>
             
         <td>generic</td>
-        <td>DotOnline Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -8630,7 +8647,7 @@ Centro de Computo</td>
             <span class="domain tld"><a href="/domains/root/db/orientexpress.html">.orientexpress</a></span></td>
             
         <td>generic</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -8893,7 +8910,7 @@ The Papua New Guinea University of Technology</td>
             <span class="domain tld"><a href="/domains/root/db/photo.html">.photo</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -8938,7 +8955,7 @@ The Papua New Guinea University of Technology</td>
             <span class="domain tld"><a href="/domains/root/db/pics.html">.pics</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>XYZ.COM LLC</td>
     </tr>
     
     <tr>
@@ -9181,7 +9198,7 @@ The Papua New Guinea University of Technology</td>
             <span class="domain tld"><a href="/domains/root/db/press.html">.press</a></span></td>
             
         <td>generic</td>
-        <td>DotPress Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -9262,7 +9279,7 @@ The Papua New Guinea University of Technology</td>
             <span class="domain tld"><a href="/domains/root/db/property.html">.property</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Internet Naming Co.</td>
     </tr>
     
     <tr>
@@ -9363,7 +9380,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/qpon.html">.qpon</a></span></td>
             
         <td>generic</td>
-        <td>dotCOOL, Inc.</td>
+        <td>DOTQPON LLC.</td>
     </tr>
     
     <tr>
@@ -9390,7 +9407,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/qvc.html">.qvc</a></span></td>
             
         <td>generic</td>
-        <td>QVC, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -9417,7 +9434,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/raid.html">.raid</a></span></td>
             
         <td>generic</td>
-        <td>Johnson Shareholdings, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -9714,7 +9731,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/rmit.html">.rmit</a></span></td>
             
         <td>generic</td>
-        <td>Royal Melbourne Institute of Technology</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -9750,7 +9767,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/rodeo.html">.rodeo</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -9813,7 +9830,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/ruhr.html">.ruhr</a></span></td>
             
         <td>generic</td>
-        <td>regiodot GmbH &amp; Co. KG</td>
+        <td>dotSaarland GmbH</td>
     </tr>
     
     <tr>
@@ -9894,7 +9911,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/sakura.html">.sakura</a></span></td>
             
         <td>generic</td>
-        <td>SAKURA Internet Inc.</td>
+        <td>SAKURA internet Inc.</td>
     </tr>
     
     <tr>
@@ -10137,7 +10154,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/scjohnson.html">.scjohnson</a></span></td>
             
         <td>generic</td>
-        <td>Johnson Shareholdings, Inc.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -10254,7 +10271,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/ses.html">.ses</a></span></td>
             
         <td>generic</td>
-        <td>SES</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -10290,7 +10307,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/sexy.html">.sexy</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Internet Naming Co.</td>
     </tr>
     
     <tr>
@@ -10326,7 +10343,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/shangrila.html">.shangrila</a></span></td>
             
         <td>generic</td>
-        <td>Shangri‐La International Hotel Management Limited</td>
+        <td>Shangri-La International Hotel Management Limited</td>
     </tr>
     
     <tr>
@@ -10479,7 +10496,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/site.html">.site</a></span></td>
             
         <td>generic</td>
-        <td>DotSite Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -10587,8 +10604,7 @@ Government Computer Center.</td>
             <span class="domain tld"><a href="/domains/root/db/sn.html">.sn</a></span></td>
             
         <td>country-code</td>
-        <td>Universite Cheikh Anta Diop
-NIC Senegal</td>
+        <td>Universite Cheikh Anta Diop</td>
     </tr>
     
     <tr>
@@ -10714,7 +10730,7 @@ NIC Senegal</td>
             <span class="domain tld"><a href="/domains/root/db/space.html">.space</a></span></td>
             
         <td>generic</td>
-        <td>DotSpace Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -10903,7 +10919,7 @@ NIC Senegal</td>
             <span class="domain tld"><a href="/domains/root/db/store.html">.store</a></span></td>
             
         <td>generic</td>
-        <td>DotStore Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -10930,7 +10946,7 @@ NIC Senegal</td>
             <span class="domain tld"><a href="/domains/root/db/study.html">.study</a></span></td>
             
         <td>generic</td>
-        <td>OPEN UNIVERSITIES AUSTRALIA PTY LTD</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -10994,7 +11010,7 @@ NIC Senegal</td>
             <span class="domain tld"><a href="/domains/root/db/surf.html">.surf</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -11039,7 +11055,7 @@ NIC Senegal</td>
             <span class="domain tld"><a href="/domains/root/db/swiftcover.html">.swiftcover</a></span></td>
             
         <td>generic</td>
-        <td>Swiftcover Insurance Services Limited</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -11175,7 +11191,7 @@ Department of Computer Science</td>
             <span class="domain tld"><a href="/domains/root/db/tattoo.html">.tattoo</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Top Level Design, LLC</td>
     </tr>
     
     <tr>
@@ -11220,7 +11236,7 @@ Department of Computer Science</td>
             <span class="domain tld"><a href="/domains/root/db/td.html">.td</a></span></td>
             
         <td>country-code</td>
-        <td>l&#39;Agence de Développement des Technologies de l&#39;Information et de la Communication (ADETIC)</td>
+        <td>l&#x27;Agence de Développement des Technologies de l&#x27;Information et de la Communication (ADETIC)</td>
     </tr>
     
     <tr>
@@ -11247,7 +11263,7 @@ Department of Computer Science</td>
             <span class="domain tld"><a href="/domains/root/db/tech.html">.tech</a></span></td>
             
         <td>generic</td>
-        <td>Personals TLD Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -11508,7 +11524,7 @@ Department of Computer Science</td>
             <span class="domain tld"><a href="/domains/root/db/tn.html">.tn</a></span></td>
             
         <td>country-code</td>
-        <td>Agence Tunisienne d&#39;Internet</td>
+        <td>Agence Tunisienne d&#x27;Internet</td>
     </tr>
     
     <tr>
@@ -11518,7 +11534,7 @@ Department of Computer Science</td>
             
         <td>country-code</td>
         <td>Government of the Kingdom of Tonga
-H.R.H. Crown Prince Tupouto&#39;a
+H.R.H. Crown Prince Tupouto&#x27;a
 c/o Consulate of Tonga</td>
     </tr>
     
@@ -11627,7 +11643,7 @@ c/o Consulate of Tonga</td>
             <span class="domain tld"><a href="/domains/root/db/tp.html">.tp</a></span></td>
             
         <td>country-code</td>
-        <td>Retired</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -11654,7 +11670,7 @@ c/o Consulate of Tonga</td>
             <span class="domain tld"><a href="/domains/root/db/trading.html">.trading</a></span></td>
             
         <td>generic</td>
-        <td>DOTTRADING REGISTRY LTD</td>
+        <td>Dog Beach, LLC</td>
     </tr>
     
     <tr>
@@ -11708,7 +11724,7 @@ c/o Consulate of Tonga</td>
             <span class="domain tld"><a href="/domains/root/db/trust.html">.trust</a></span></td>
             
         <td>generic</td>
-        <td>UNR Corp.</td>
+        <td>Internet Naming Co.</td>
     </tr>
     
     <tr>
@@ -11772,7 +11788,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/tv.html">.tv</a></span></td>
             
         <td>country-code</td>
-        <td>Ministry of Finance and Tourism</td>
+        <td>Ministry of Justice, Communications and Foreign Affairs</td>
     </tr>
     
     <tr>
@@ -11889,7 +11905,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/uno.html">.uno</a></span></td>
             
         <td>generic</td>
-        <td>DotSite Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -12024,7 +12040,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/versicherung.html">.versicherung</a></span></td>
             
         <td>generic</td>
-        <td>TLD-BOX Registrydienstleistungen GmbH</td>
+        <td>tldbox GmbH</td>
     </tr>
     
     <tr>
@@ -12114,7 +12130,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/vip.html">.vip</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -12204,7 +12220,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/vodka.html">.vodka</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -12393,7 +12409,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/website.html">.website</a></span></td>
             
         <td>generic</td>
-        <td>DotWebsite Inc.</td>
+        <td>Radix FZC</td>
     </tr>
     
     <tr>
@@ -12411,7 +12427,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/wedding.html">.wedding</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -12447,7 +12463,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/whoswho.html">.whoswho</a></span></td>
             
         <td>generic</td>
-        <td>Who&#39;s Who Registry</td>
+        <td>Who&#x27;s Who Registry</td>
     </tr>
     
     <tr>
@@ -12546,7 +12562,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/work.html">.work</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -12654,7 +12670,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--0zwm56d.html">.测试</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -12672,7 +12688,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--11b5bs3a9aj6g.html">.परीक्षा</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -12753,7 +12769,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--3oq18vl8pn36a.html">.大众汽车</a></span></td>
             
         <td>generic</td>
-        <td>Volkswagen (China) Investment Co., Ltd.</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -12816,7 +12832,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--4gbrim.html">&#x200f;.موقع&#x200e;</a></span></td>
             
         <td>generic</td>
-        <td>Suhub Electronic Establishment</td>
+        <td>Helium TLDs Ltd</td>
     </tr>
     
     <tr>
@@ -12843,7 +12859,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--55qx5d.html">.公司</a></span></td>
             
         <td>generic</td>
-        <td>Computer Network Information Center of Chinese Academy of Sciences （China Internet Network Information Center）</td>
+        <td>China Internet Network Information Center(CNNIC)</td>
     </tr>
     
     <tr>
@@ -12852,7 +12868,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--5su34j936bgsg.html">.香格里拉</a></span></td>
             
         <td>generic</td>
-        <td>Shangri‐La International Hotel Management Limited</td>
+        <td>Shangri-La International Hotel Management Limited</td>
     </tr>
     
     <tr>
@@ -12897,7 +12913,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--80akhbyknj4f.html">.испытание</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -12969,7 +12985,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--90ais.html">.бел</a></span></td>
             
         <td>country-code</td>
-        <td>Reliable Software, Ltd.</td>
+        <td>Belarusian Cloud Technologies LLC</td>
     </tr>
     
     <tr>
@@ -13005,7 +13021,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--9t4b11yi5a.html">.테스트</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13131,7 +13147,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--deba0ad.html">&#x200f;.טעסט&#x200e;</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13140,7 +13156,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--e1a4c.html">.ею</a></span></td>
             
         <td>country-code</td>
-        <td>EURid vzw/asbl</td>
+        <td>EURid vzw</td>
     </tr>
     
     <tr>
@@ -13284,7 +13300,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--g6w251d.html">.測試</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13347,7 +13363,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--hgbk6aj7f53bba.html">&#x200f;.آزمایشی&#x200e;</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13356,7 +13372,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--hlcj6aya9esc7a.html">.பரிட்சை</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13392,7 +13408,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--io0a7i.html">.网络</a></span></td>
             
         <td>generic</td>
-        <td>Computer Network Information Center of Chinese Academy of Sciences （China Internet Network Information Center）</td>
+        <td>China Internet Network Information Center(CNNIC)</td>
     </tr>
     
     <tr>
@@ -13437,7 +13453,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--jlq61u9w7b.html">.诺基亚</a></span></td>
             
         <td>generic</td>
-        <td>Nokia Corporation</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13455,7 +13471,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--jxalpdlp.html">.δοκιμή</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13473,7 +13489,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--kgbechtv.html">&#x200f;.إختبار&#x200e;</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -13581,7 +13597,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--mgbaam7a8h.html">&#x200f;.امارات&#x200e;</a></span></td>
             
         <td>country-code</td>
-        <td>Telecommunications Regulatory Authority (TRA)</td>
+        <td>Telecommunications and Digital Government Regulatory Authority (TDRA)</td>
     </tr>
     
     <tr>
@@ -13887,7 +13903,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--pgbs0dh.html">&#x200f;.تونس&#x200e;</a></span></td>
             
         <td>country-code</td>
-        <td>Agence Tunisienne d&#39;Internet</td>
+        <td>Agence Tunisienne d&#x27;Internet</td>
     </tr>
     
     <tr>
@@ -13905,7 +13921,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--q7ce6a.html">.ລາວ</a></span></td>
             
         <td>country-code</td>
-        <td>Lao National Internet Center (LANIC)</td>
+        <td>Lao National Internet Center (LANIC), Ministry of Technology and Communications</td>
     </tr>
     
     <tr>
@@ -13932,7 +13948,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--qxa6a.html">.ευ</a></span></td>
             
         <td>country-code</td>
-        <td>EURid vzw/asbl</td>
+        <td>EURid vzw</td>
     </tr>
     
     <tr>
@@ -14157,7 +14173,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/xn--zckzah.html">.テスト</a></span></td>
             
         <td>test</td>
-        <td>Internet Assigned Numbers Authority</td>
+        <td>Not assigned</td>
     </tr>
     
     <tr>
@@ -14211,7 +14227,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/yahoo.html">.yahoo</a></span></td>
             
         <td>generic</td>
-        <td>Yahoo! Domain Services Inc.</td>
+        <td>OATH INC</td>
     </tr>
     
     <tr>
@@ -14256,7 +14272,7 @@ Faculty of Engineering</td>
             <span class="domain tld"><a href="/domains/root/db/yoga.html">.yoga</a></span></td>
             
         <td>generic</td>
-        <td>Minds + Machines Group Limited</td>
+        <td>Registry Services, LLC</td>
     </tr>
     
     <tr>
@@ -14400,117 +14416,121 @@ Faculty of Engineering</td>
     </div>
 
 
-			</div>
-			
-			<div id="sidebar_left">
-				<div class="navigation_box">
-				<h2>Domain Names</h2>
-				<ul>
-					<li id="nav_dom_top"><a href="/domains">Overview</a></li>
-					<li id="nav_dom_root"><a href="/domains/root">Root Zone Management</a></li>
-					<ul id="nav_dom_root_sub">
-						<li id="nav_dom_root_top"><a href="/domains/root">Overview</a></li>
-						<li id="nav_dom_root_db"><a href="/domains/root/db">Root Database</a></li>
-						<li id="nav_dom_root_files"><a href="/domains/root/files">Hint and Zone Files</a></li>
-						<li id="nav_dom_root_manage"><a href="/domains/root/manage">Change Requests</a></li>
-						<li id="nav_dom_root_procedures"><a href="/domains/root/help">Instructions &amp; Guides</a></li>
-						<li id="nav_dom_root_servers"><a href="/domains/root/servers">Root Servers</a></li>
-					</ul>
-					<li id="nav_dom_int"><a href="/domains/int">.INT Registry</a></li>
-					<ul id="nav_dom_int_sub">
-						<li id="nav_dom_int_top"><a href="/domains/int">Overview</a></li>
-						<li id="nav_dom_int_manage"><a href="/domains/int/manage">Register/modify an .INT domain</a></li>
-						<li id="nav_dom_int_policy"><a href="/domains/int/policy">Eligibility</a></li>
-					</ul>
-					<li id="nav_dom_arpa"><a href="/domains/arpa">.ARPA Registry</a></li>
-					<li id="nav_dom_idn"><a href="/domains/idn-tables">IDN Practices Repository</a></li>
-					<ul id="nav_dom_idn_sub">
-						<li id="nav_dom_idn_top"><a href="/domains/idn-tables">Overview</a></li>
-						<!-- <li id="nav_dom_idn_tables"><a href="/domains/idn-tables/db">Tables</a></li> -->
-						<li id="nav_dom_idn_submit"><a href="/procedures/idn-repository.html">Submit a table</a></li>
-					</ul>
-					<li id="nav_dom_dnssec"><a href="/dnssec">Root Key Signing Key (DNSSEC)</a></li>
-					<ul id="nav_dom_dnssec_sub">
-						<li id="nav_dom_dnssec_top"><a href="/dnssec">Overview</a></li>
-						<li id="nav_dom_dnssec_ksk"><a href="/dnssec/files">Trusts Anchors and Keys</a></li>
-						<li id="nav_dom_dnssec_ceremonies"><a href="/dnssec/ceremonies">Key Signing Ceremonies</a></li>
-						<li id="nav_dom_dnssec_dps"><a href="/dnssec/procedures">Policies &amp; Procedures</a></li>
-                        <li id="nav_dom_dnssec_tcrs"><a href="/dnssec/tcrs">Community Representatives</a></li>
-                        <li id="nav_dom_dnssec_archive"><a href="/dnssec/archive">Project Archive</a></li>
+    </main>
 
-					</ul>
-					<li id="nav_dom_special"><a href="/domains/reserved">Reserved Domains</a></li>
-				</ul>
-				</div>
-			</div>
-			
+    <nav id="sidenav">
+    
 
-	</div>
+<div class="navigation_box">
+    <h2>Domain Names</h2>
+    <ul>
+        <li id="nav_dom_top"><a href="/domains">Overview</a></li>
+        <li id="nav_dom_root"><a href="/domains/root">Root Zone Management</a></li>
+        <ul id="nav_dom_root_sub">
+            <li id="nav_dom_root_top"><a href="/domains/root">Overview</a></li>
+            <li id="nav_dom_root_db"><a href="/domains/root/db">Root Database</a></li>
+            <li id="nav_dom_root_files"><a href="/domains/root/files">Hint and Zone Files</a></li>
+            <li id="nav_dom_root_manage"><a href="/domains/root/manage">Change Requests</a></li>
+            <li id="nav_dom_root_procedures"><a href="/domains/root/help">Instructions &amp; Guides</a></li>
+            <li id="nav_dom_root_servers"><a href="/domains/root/servers">Root Servers</a></li>
+        </ul>
+        <li id="nav_dom_int"><a href="/domains/int">.INT Registry</a></li>
+        <ul id="nav_dom_int_sub">
+            <li id="nav_dom_int_top"><a href="/domains/int">Overview</a></li>
+            <li id="nav_dom_int_manage"><a href="/domains/int/manage">Register/modify an .INT domain</a></li>
+            <li id="nav_dom_int_policy"><a href="/domains/int/policy">Eligibility</a></li>
+        </ul>
+        <li id="nav_dom_arpa"><a href="/domains/arpa">.ARPA Registry</a></li>
+        <li id="nav_dom_idn"><a href="/domains/idn-tables">IDN Practices Repository</a></li>
+        <ul id="nav_dom_idn_sub">
+            <li id="nav_dom_idn_top"><a href="/domains/idn-tables">Overview</a></li>
+            <!-- <li id="nav_dom_idn_tables"><a href="/domains/idn-tables/db">Tables</a></li> -->
+            <li id="nav_dom_idn_submit"><a href="/procedures/idn-repository.html">Submit a table</a></li>
+        </ul>
+        <li id="nav_dom_dnssec"><a href="/dnssec">Root Key Signing Key (DNSSEC)</a></li>
+        <ul id="nav_dom_dnssec_sub">
+            <li id="nav_dom_dnssec_top"><a href="/dnssec">Overview</a></li>
+            <li id="nav_dom_dnssec_ksk"><a href="/dnssec/files">Trusts Anchors and Keys</a></li>
+            <li id="nav_dom_dnssec_ceremonies"><a href="/dnssec/ceremonies">Key Signing Ceremonies</a></li>
+            <li id="nav_dom_dnssec_dps"><a href="/dnssec/procedures">Policies &amp; Procedures</a></li>
+            <li id="nav_dom_dnssec_tcrs"><a href="/dnssec/tcrs">Community Representatives</a></li>
+            <li id="nav_dom_dnssec_archive"><a href="/dnssec/archive">Project Archive</a></li>
 
-	<footer>
-		<div id="footer">
-			<table class="navigation">
-				<tr>
-					<td class="section"><a href="/domains">Domain&nbsp;Names</a></td>
-					<td class="subsection">
-						<ul>
-							<li><a href="/domains/root">Root Zone Registry</a></li>
-							<li><a href="/domains/int">.INT Registry</a></li>
-							<li><a href="/domains/arpa">.ARPA Registry</a></li>
-							<li><a href="/domains/idn-tables">IDN Repository</a></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="section"><a href="/numbers">Number&nbsp;Resources</a></td>
-					<td class="subsection">
-						<ul>
-							<li><a href="/abuse">Abuse Information</a></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="section"><a href="/protocols">Protocols</a></td>
-					<td class="subsection">
-						<ul>
-							<li><a href="/protocols">Protocol Registries</a></li>
-							<li><a href="/time-zones">Time Zone Database</a></li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td class="section"><a href="/about">About&nbsp;Us</a></td>
-					<td class="subsection">
-						<ul>
-							<li><a href="/about/presentations">Presentations</a></li>
-							<li><a href="/reports">Reports</a></li>
-                            <li><a href="/performance">Performance</a></li>
-							<li><a href="/reviews">Reviews</a></li>
-                            <li><a href="/about/excellence">Excellence</a></li>
-							<li><a href="/contact">Contact Us</a></li>
-						</ul>
-					</td>
-				</tr>
-			</table>
+        </ul>
+        <li id="nav_dom_special"><a href="/domains/reserved">Reserved Domains</a></li>
+    </ul>
+</div>
 
-            <div id="custodian">
-                <p>The IANA functions coordinate the Internet’s globally unique identifiers, and
-                    are provided by <a href="http://pti.icann.org">Public Technical Identifiers</a>, an affiliate of
-                    <a href="http://www.icann.org/">ICANN</a>.</p>
-            </div>
 
-            <div id="legalnotice">
+    </nav>
+
+</article>
+
+
+</div>
+
+<footer>
+    <div id="footer">
+        <table class="navigation">
+            <tr>
+                <td class="section"><a href="/domains">Domain&nbsp;Names</a></td>
+                <td class="subsection">
+                    <ul>
+                        <li><a href="/domains/root">Root Zone Registry</a></li>
+                        <li><a href="/domains/int">.INT Registry</a></li>
+                        <li><a href="/domains/arpa">.ARPA Registry</a></li>
+                        <li><a href="/domains/idn-tables">IDN Repository</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="section"><a href="/numbers">Number&nbsp;Resources</a></td>
+                <td class="subsection">
+                    <ul>
+                        <li><a href="/abuse">Abuse Information</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="section"><a href="/protocols">Protocols</a></td>
+                <td class="subsection">
+                    <ul>
+                        <li><a href="/protocols">Protocol Registries</a></li>
+                        <li><a href="/time-zones">Time Zone Database</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="section"><a href="/about">About&nbsp;Us</a></td>
+                <td class="subsection">
+                    <ul>
+                        <li><a href="/performance">Performance</a></li>
+                        <li><a href="/reports">Reports</a></li>
+                        <li><a href="/reviews">Reviews</a></li>
+                        <li><a href="/about/excellence">Excellence</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <div id="custodian">
+            <p>The IANA functions coordinate the Internet’s globally unique identifiers, and
+                are provided by <a href="http://pti.icann.org">Public Technical Identifiers</a>, an affiliate of
+                <a href="http://www.icann.org/">ICANN</a>.</p>
+        </div>
+
+        <div id="legalnotice">
             <ul>
                 <li><a href="https://www.icann.org/privacy/policy">Privacy Policy</a></li>
                 <li><a href="https://www.icann.org/privacy/tos">Terms of Service</a></li>
-                </ul>
-                </p>
-            </div>
+            </ul>
+        </div>
 
-		</div>
-	</footer>
-	
-	
+    </div>
+</footer>
+
+
 <script>
 $(document).ready(function() {
     $("#nav_dom_int_sub").hide();
@@ -14525,7 +14545,7 @@ $(document).ready(function() {
 });
 </script>
 
-	
+
 </body>
 
 </html>
