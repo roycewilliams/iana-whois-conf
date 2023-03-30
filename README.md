@@ -5,14 +5,17 @@ This is an ugly hack to harvest the official list of WHOIS servers from IANA for
 
 It's also a convenience repository to hold the data when I run the script myself once in a while (the `*.baseline` files, especially `whois.conf.baseline`).
 
+[This question](http://superuser.com/questions/758647) used to have the entire list, but someone decided that an answer to the question was dynamic enough that it probably shouldn't be maintained in a Stack Exchange answer (which is somewhat fair).
+
 Be nice
 -------
 
 Be polite - don't run this too often (once a month is probably fine). TLDs are released or changed infrequently (though more frequently than they used to be!). Unfortunately, since at this writing the iana.org web server doesn't send Last-Modified headers, there's no way to be automatically more polite.
 
-Share. Let me know when you notice a significant change at the authoritative source (IANA). Changes not shown by IANA are out of scope for this project.
+Share
+-----
 
-[This question](http://superuser.com/questions/758647) used to have the entire list, but someone decided that an answer to the question was dynamic enough that it probably shouldn't be maintained in a Stack Exchange answer (which is somewhat fair).
+Let me know when you notice a significant change at the authoritative source (IANA). Changes not shown by IANA are out of scope for this project.
 
 **Please only send pull requests for the scripts - not for the data (updates to the cache or the baselines, etc.)** Run the scripts themselves for your own updates. That being said, I pushed the baselines for general use and for people who can't run these scripts themselves for some reason, so if I'm being lazy and haven't updated in a while, ping me at royce@techsolvency.com, and I'll update when I can.
 
