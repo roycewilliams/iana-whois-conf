@@ -8,8 +8,8 @@
 
 echo "- Building whois.conf ..."
 
-for item in $(ls cache/*.html | sed 's/\.html//g;s~cache/~~g'); do
-    MYWHOIS=$(egrep -i 'Whois Server' cache/${item}.html | cut -d\> -f3)
+for item in $(find cache/ -name '*.html' | sed 's/\.html//g;s~cache/~~g'); do
+    MYWHOIS=$(grep -E -a -i 'Whois Server' "cache/${item}.html" | cut -d\> -f3)
     if [ -n "${MYWHOIS}" ]; then
         echo "\.${item}\$${MYWHOIS}"
     fi
@@ -26,7 +26,7 @@ echo "cp -p whois.conf whois.conf.baseline"
 echo ""
 
 echo "- Building jwhois.conf ..."
-cat whois.conf | sed 's~\\~\\\\~g;s/ /" = "/g;s/$/"/g;s/^/"/g' > jwhois.conf
+< whois.conf sed 's~\\~\\\\~g;s/ /" = "/g;s/$/"/g;s/^/"/g' > jwhois.conf
 wc -l jwhois.conf
 echo ""
 

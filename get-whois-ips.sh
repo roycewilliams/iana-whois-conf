@@ -17,7 +17,7 @@ NAMESERVER=
 #-----------------------------------------------------------------------
 
 for host in $(awk '{print $2}' whois.conf | sort -u); do
-    MYIPS=$(host -t A -4 $host "${NAMESERVER}" 2>&1 | grep 'has address' | awk '{print $4}')
+    MYIPS=$(host -t A -4 "$host" "${NAMESERVER}" 2>&1 | grep 'has address' | awk '{print $4}')
     for ip in ${MYIPS}; do
         echo "$host ${ip}"
     done
