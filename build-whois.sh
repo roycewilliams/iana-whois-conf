@@ -9,7 +9,7 @@
 echo "- Building whois.conf ..."
 
 for item in $(find cache/ -name '*.html' | sed 's/\.html//g;s~cache/~~g'); do
-    MYWHOIS=$(grep -E -a -i 'Whois Server' "cache/${item}.html" | cut -d\> -f3)
+    MYWHOIS=$(grep -E -a -i 'Whois Server' "cache/${item}.html" | cut -d\> -f3  | cut -d'<' -f1)
     if [ -n "${MYWHOIS}" ]; then
         echo "\.${item}\$${MYWHOIS}"
     fi
